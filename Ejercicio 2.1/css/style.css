@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+.todo{
+    
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+ /* navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: purple;
+}
+
+.navbar ul {
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    height: auto;
+    float: left;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar li a:hover {
+    background-color: #230435;
+}
+
+/* seccion de datos de tienda */
+
+.section_tienda{
+    width: 95%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    border: #230435 1px solid;
+    border-radius: 24px;
+    text-align: center;;
+}
+
+.section_tienda .descripcion_tienda{
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+/* productos */
+.productos{
+    margin-bottom: 10rem;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.tarjeta {
+  max-width: 65vw;
+  margin: 48px auto;
+  height: 250px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.contenido {
+  display: flex;
+}
+@media (max-width: 1024px){
+  .contenido{
+  flex-direction: column;
+  }
+  .tarjeta {
+   max-width: 95vw;
+  }
+}
+.ladoIzq, .ladoDer {
+  width: 100%;
+}
+.ladoDer img {
+  width: 100%;
+  height: 100%;
+  border-style: none;
+}
+.ladoIzq {
+  background: #230435;
+  color: white;
+  padding: 48px
+}
+.btn {
+  display: inline-block;
+  background: white;
+  margin-right: 4px;
+  padding: 14px;
+  border-radius: 5px;
+  margin-top: 18px;
+}
+a.btn{
+   text-decoration: none;
+}
+a.btn:first-of-type {
+   background: #5252b4;
+   color: white;
+}
+a.btn:hover{
+   opacity: 0.8;
+}
+
+/* footer */
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: purple;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
