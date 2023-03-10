@@ -13,37 +13,37 @@
     <h1>Nombre</h1>
     <table border="1">
         <thead >
-            <th>Trimestre</th>
-            <th>Ventas</th>
-            <th>Gastos</th>
-            <th>Beneficios</th>
+            <th scope="row">Trimestre</th>
+            <th scope="col">Ventas</th>
+            <th scope="col">Gastos</th>
+            <th scope="col">Beneficios</th>
         </thead>
         <tbody>
-            <td scope="row">Nombre 1</td>
-            <td>$00000</td>
-            <td >25</td>
-            <td>25</td>
+            <td scope="row">1</td>
+            <td id="ventas1">$204.000</td>
+            <td id="gastos1">$250.000</td>
+            <td id="total1"></td>
           </tr>
           <tr>
-            <td>Nombre 2</td>
-            <td>$00000</td>
-            <td>23</td>
-            <td>25</td>
+            <td scope="row">2</td>
+            <td id="ventas2">$109.000</td>
+            <td id="gastos2">$230.000</td>
+            <td id="total2">25</td>
           </tr>
           <tr>
-            <td>Nombre 3</td>
-            <td>$00000</td>
-            <td>27</td>
-            <td>25</td>
+            <td scope="row">3</td>
+            <td id="ventas3">$300.000</td>
+            <td id="gastos3">$270.000</td>
+            <td id="total3"></td>
           </tr>
           <tfoot> 
             <td>Total</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="totalVentas"></td>
+            <td id="totalGastos"></td>
+            <td id="totalBeneficios"></td>
           </tfoot>  
         </table>
-        
+        <script src="js/app.js"></script>
 </body>
 
 </html>
