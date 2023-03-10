@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+}
+
+.todo{
+    
+    height: auto;
+    max-width: 1550px;
+    margin:0 auto;
+
+}
+ /* navbar */
+.navbar {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    background-color: purple;
+}
+
+.navbar ul {
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    height: auto;
+    float: left;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar li a:hover {
+    background-color: #230435;
+}
+
+/* seccion titulo comentario */
+.section {
+    width:80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.section .title {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #230435;
+}
+
+.sections .descion_tienda{
+    text-align: center;
+    font-size: 1.5rem;
+}
+ /* tarjeta */
+.tarjeta{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:320px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:15px;
+}
+.tarjeta img{
+    width: 300px;
+    height: 80%;
+}
+.titulo{
+  font-size: 24px;
+  padding: 10px 10px 0 10px;;
+}
+.cuerpo{
+  padding: 10px;
+}
+.pie{
+  background: #6699ff;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+}
+.pie a{
+  text-decoration: none;
+  color: white;
+}
+.pie a:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: ""
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar ul {
+        display: none;
+    }
+}
