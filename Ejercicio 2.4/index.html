@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form>
+    <form method="get">
         <fieldset>
             <label for="nombre">Nombre completo:</label><br>
             <input type="text" id="nombre" name="nombre" required>
@@ -19,12 +19,12 @@
             <input type="email" id="correo" name="correo" required>
             <br>
             <br>
-            <label for="contrasena">Contraseña:</label><br>
-            <input type="password" id="contrasena" name="contrasena" required>
+            <label for="contrasena" >Contraseña:</label><br>
+            <input type="password" id="contrasena" name="contrasena" required minlength="5" maxlength="20" pattern="^(?=(?:.*\d){2})(?=(?:.*[A-Z]){2})(?=(?:.*[a-z]){2})\S{8,}$">
             <br>
             <br>
             <label for="confirmar_contrasena">Confirmar Contraseña:</label><br>
-            <input type="password" id="confirmar_contrasena" name="contrasena" required>
+            <input type="password" id="confirmar_contrasena" name="contrasena" required  minlength="5" maxlength="20" pattern="^(?=(?:.*\d){2})(?=(?:.*[A-Z]){2})(?=(?:.*[a-z]){2})\S{8,}$">
             <br>
             <br>
             <label for="pais">País de nacimiento:</label>
