@@ -42,3 +42,7 @@ document.getElementById("totalVentas").innerHTML = `$${Format(parseInt(venta1)+p
 document.getElementById("totalGastos").innerHTML = `$${Format(parseInt(gastos1)+parseInt(gastos2)+parseInt(gastos3))}`; 
 /* total Beneficios */
 document.getElementById("totalBeneficios").innerHTML = `$${Format(total1+total2+total3)}`; 
+
+123
+
+
