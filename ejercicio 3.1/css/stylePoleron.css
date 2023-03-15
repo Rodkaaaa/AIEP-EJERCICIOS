@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.volver {
+  float: left;
+  width: 100px;
+  margin: 0 auto;
+  background-color: #230435;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 25px;
+}
+
+.volver:hover {
+  background-color: purple;
+}
+
+.volver_btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:420px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border: 1px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 5px 5px 15px gray;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 15px purple;
+  opacity: 0.5;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+}
+
+.card .title {
+  font-size: 20px;
+  color: #fff;
+  /* padding: 10px 10px 0 10px; */
+  background-color: #230435;
+  width: 100%;
+  border-radius:20px 20px 0px 0px ;
+  padding-bottom: 10px;
+}
+
+.card .card_contenedor {
+  background-color: #230435;
+  color: #fff;
+  border-radius: 0px 0px 20px 20px;
+  padding: 10px;
+}
+
+.card_footer{
+    
+    margin-top: 20px;
+    background: #230435;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+  }
+
+  .card_footer h5{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .card_footer h5:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  } 
