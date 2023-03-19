@@ -23,22 +23,24 @@
     text-align: left;
     font-size: 2rem;
     color: blue;
+    padding-left: 25rem;
+    padding-bottom: 1rem;
 }
 
 .img_container{
-    display: flex;
+    margin: 0 auto;
     border-style: double;
-    margin: 30px;
     align-items: center;
     image-rendering: optimizeQuality;
-    align-items: center;
+    
  }
 .img_container:hover{
-        opacity: 0.6;
+    opacity: 0.6;
     box-shadow: 0px 9px 5px 0px blue;
 }
 
 ol li{
+    width: 40%;
     list-style-type: none;
     counter-increment: lista;
     position: relative;
@@ -48,16 +50,55 @@ ol li{
 
 ol li::before{
     color: blue;
-    content: counter(lista) "-";
+    content: counter(lista) ".";
     position: relative  ;
     text-align: left;
-    width: 80%;
-
-
 }
 
 .parraf_container{
+    width: 40%;
     margin: 0 auto;
     padding: 2rem;
 }
+.parraf_container p b{
+    color: blue;
+}
 
+h2{
+    position: relative;
+    text-align: left;
+    font-size: 2rem;
+    color: blue;
+    padding: 2rem 25rem 0 ;
+}
+
+table{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table thead{
+    background-color: blue;
+}
+
+table tbody th{
+    background-color: aquamarine;
+    color: blue ;
+}
+
+.parraf_final_container{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.parraf_final_container p{
+    font-size: 14px;
+    padding-top: 0.5rem;
+}
+.parraf_final_container p b{
+    font-weight: bolder;
+    color: grey;
+    font-size: 15px;
+}
