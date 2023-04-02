@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 120px);
+    grid-template-areas:
+      "h h h h h h h h h h"
+      "a a a a a a n n l l"
+      "a a a a a a n n l l"
+      "a a a a a a n n l l"
+      "f f f f f f n n l l";
+    gap: 20px;
+}
+ header{ grid-area: h;}
+ nav{ grid-area: n;}
+ article{grid-area: a;}
+ aside{grid-area: l;}
+ footer{grid-area: f;}
